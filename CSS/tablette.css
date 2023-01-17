@@ -1,0 +1,62 @@
+
+#section2{
+    flex-direction: column;
+}
+#filtres{
+    min-width: 835px;
+}
+header, #section1, #section2, #section3, footer, article, aside{
+    width: 880px;
+}
+/* Article */
+article{
+    margin-bottom: 53px;
+    min-height: 0;
+}
+
+/* aside */
+aside{
+    min-height: 278px;
+    margin: 0;
+}
+aside img{
+    width: 106px;
+}
+.carre2{
+    width: 252px;
+    height: 144px;
+    min-width: 0;
+    margin: 0 23px 48px 0;
+}
+#carresaside{
+    display: flex;
+    margin-left: 40px;
+}
+aside p, aside h3, aside .etoile{
+    margin-left: 10px;
+}
+
+/* Section3 */
+#section3{
+    min-width: 883px;
+}
+
+#bloc3 a{
+    width: 182px;
+    min-width: 182px;
+    height: 267px;
+    box-shadow: 0px 2px 6px 1px lightgray;
+    border-radius: 20px;
+}
+.carre3 img{
+    object-fit: cover;
+    width: 100%;
+    height: 211px;
+    border-radius: 20px 20px 0 0;
+}
+.carre3 p{
+    margin: auto auto auto 19px;
+    display: flex;
+    align-items: center;
+    height: 57px;
+}

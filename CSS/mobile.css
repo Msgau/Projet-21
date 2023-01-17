@@ -1,0 +1,193 @@
+/* Général */
+
+body{
+    max-width: 375px;
+    margin: auto;
+}
+.bloc, #bloc3, footer{
+    flex-direction: column;
+    width: 100%;
+}
+header img, #section1>p, .bloc, #section2, #blocfiltre p{
+    margin: 0;
+}
+header, #section1, #section2, #section3, article, aside{
+    width: 334px;
+}
+/* Header */
+
+header{
+    flex-direction: column;
+    align-items: center;
+    padding-top: 21px;
+    background-color: white;
+}
+nav ul{
+    padding-left: 0px;
+}
+nav li{
+    width: 187.5px;
+}
+/* Titres */
+
+nav li{
+    border-bottom: 20px;
+}
+ul li{
+    padding-bottom: 30px;
+    border-bottom: 5px solid #F2F2F2;
+}
+ul li:hover{
+    border-top: 3px solid white;
+}
+ul li:active{
+    color:#0065FC;
+    border-bottom: 5px solid #0065FC;
+}
+
+/* Barre recherche */
+
+#fondRecherche{
+    display: none; 
+}
+#fondloupe{
+    display: flex;
+    width: 49px;
+    height: 49px;
+}
+#rechercher{
+    width: 332px;
+    margin: auto;
+    margin: 34px auto 36px auto;
+}
+
+/* Filtres */
+#filtres{
+    margin-top: 34px;
+    min-width: 0;
+}
+#filtres h2{
+    margin: 0 0 15px 0;
+}
+#blocfiltre{
+    gap: 17px 14px;
+    flex-wrap: wrap;
+}
+#filtres{
+    flex-direction: column;
+    align-items: baseline;
+    gap:0;
+}
+
+.txtfiltre{
+    font-size: 11px;
+}
+#filtres p{
+    width: 141px;
+    height: 44px;
+    padding: 0 0 0 13px;
+    display: flex;
+    align-items: center;
+}
+
+#info p{
+    font-size: 16px;
+    width: 298px;
+}
+
+/* section 2 */
+/* On repose les bases */
+
+aside, article{
+    width: auto;
+    margin-left: auto;
+    min-width: 0px;
+    border-radius: 0;
+}
+article{
+    width: 100%;
+    background-color: white;
+    margin-bottom: 95px;
+}
+#section2{
+    flex-direction: column-reverse;
+    width: 375px;
+}
+/* Le aside d'abord */
+aside{
+    min-width: 0;
+    min-height: 0;
+}
+.pop{
+    margin: 28px 21px 26px 20px;
+}
+.carre2{
+    height: 144px;
+    width: 334px;
+    margin: 0 21px 11px 20px;
+}
+.description h3{
+    margin-left : 15px;
+}
+aside img{
+    width: 137px;
+}
+#carresaside{
+    flex-direction: column;
+    margin: 0 0 36px 0;
+}
+aside p, aside h3, aside .etoile{
+    margin-left: 10px;
+} 
+
+/* Le main */
+article h2{
+    margin: 26px 0 19px 20px;
+}
+.carre{
+    margin: 0 20px 12px 20px;
+    width: 334px;
+}
+#afficher{
+    display: none;
+}
+
+/* Bloc 3 */
+#section3{
+    margin-left: 20px;
+    width: 375px;
+    min-width: 0;
+}
+#section3 h2{
+    margin: 0;
+    width: 120px;
+}
+#bloc3{
+    margin-top: 5px;
+}
+#bloc3 a{
+    height: 190px;
+    width: 334px;
+    margin-bottom: 24px;
+}
+
+.carre3 img{
+    height: 134px;
+}
+
+.carre3 p{
+    height: 52px;
+}
+/* Footer */
+footer{
+    padding-left: 0px;
+    padding-bottom: 20px;
+    display: block;
+    height: 100%;
+}
+footer div{
+    padding-left: 20px;
+}
+.padding40{
+    padding-top: 28px;
+}
